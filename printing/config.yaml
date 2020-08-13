@@ -36,7 +36,6 @@ socketTimeout: 360000
 
 #outputFilename: '${outputFilename}'
 outputFilename: "KaartViewerPDF"
-proxyBaseUrl: http://kaartviewer/geoserver/pdf
 
 #path to non-default fonts
 #slows down initial start so unused.
