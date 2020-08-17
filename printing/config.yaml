@@ -269,7 +269,31 @@ layouts:
               maxWidth: 150
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
-
+       
+       #Legend
+       #absoluteY -2
+       #voorplaatsing absolutex - 167
+        - !columns
+           absoluteX: 625
+           absoluteY: 577.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
+       
   #===========================================================================
   # A4 Portrait   595 x 842
   #===========================================================================
@@ -442,6 +466,30 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 377
+           absoluteY: 824.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
+       
   #===========================================================================
   # A3 Landscape    1190 x 842
   #===========================================================================
@@ -611,6 +659,29 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 972
+           absoluteY: 824.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
 
   #===========================================================================
   # A3 Portrait   842 x 1190
@@ -783,7 +854,30 @@ layouts:
               maxWidth: 150
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
-              
+
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 624
+           absoluteY: 1172.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false              
 
   #===========================================================================
   # A2 Landscape    1684x1190
@@ -957,6 +1051,29 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 1466
+           absoluteY: 1172.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
 
   #===========================================================================
   # A2 Portrait   1190x1684
@@ -1130,7 +1247,29 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
-
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 972
+           absoluteY: 1666.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
 
   #===========================================================================
   # A1 Landscape    1685x2384
@@ -1305,6 +1444,29 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 2166
+           absoluteY: 1666.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
 
   #===========================================================================
   # A1 Portrait   1685 x 2384
@@ -1479,6 +1641,30 @@ layouts:
               maxWidth: 150
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
+        
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 1467
+           absoluteY: 2366.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
 
   #===========================================================================
   # A0 Landscape    2384x3371
@@ -1653,6 +1839,30 @@ layouts:
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 3153
+           absoluteY: 2366.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
+
   #===========================================================================
   # A0 Landscape    2384x3371
   #===========================================================================
@@ -1825,3 +2035,27 @@ layouts:
               maxWidth: 150
               maxHeight: 53
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
+              
+        #Legenda 
+        #absoluteY -2 (breedte map
+        #voorplaatsing absolutex - 218 (breedte pagina)
+        - !columns
+           absoluteX: 2166
+           absoluteY: 3353.5
+           width: 200
+           config:
+             borderWidth: 1
+             cells:
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
+           items:
+             - !legends
+               backgroundColor: 'rgba(255,255,255,0.85)'
+               borders: false
+               horizontalAlignment: left
+               iconMaxWidth: 190
+               iconMaxHeight: 0
+               textMaxWidth: 190
+               iconPadding: 0
+               defaultScale: 0.7937
+               inline: false
