@@ -274,6 +274,7 @@ layouts:
        #absoluteY -2
        #voorplaatsing absolutex - 167
         - !columns
+           condition: legends
            absoluteX: 625
            absoluteY: 577.5
            width: 200
@@ -470,6 +471,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 377
            absoluteY: 824.5
            width: 200
@@ -663,6 +665,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 972
            absoluteY: 824.5
            width: 200
@@ -859,6 +862,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 624
            absoluteY: 1172.5
            width: 200
@@ -1055,6 +1059,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 1466
            absoluteY: 1172.5
            width: 200
@@ -1251,6 +1256,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 972
            absoluteY: 1666.5
            width: 200
@@ -1448,6 +1454,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 2166
            absoluteY: 1666.5
            width: 200
@@ -1646,6 +1653,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 1467
            absoluteY: 2366.5
            width: 200
@@ -1843,6 +1851,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 3153
            absoluteY: 2366.5
            width: 200
@@ -2040,6 +2049,7 @@ layouts:
         #absoluteY -2 (breedte map
         #voorplaatsing absolutex - 218 (breedte pagina)
         - !columns
+           condition: legends
            absoluteX: 2166
            absoluteY: 3353.5
            width: 200
