@@ -261,13 +261,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
        
        #Legend
@@ -458,13 +461,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -652,13 +658,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -849,13 +858,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -1046,13 +1058,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -1243,13 +1258,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -1441,13 +1459,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -1640,13 +1661,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
         
         #Legenda 
@@ -1838,13 +1862,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
 
         #Legenda 
@@ -2036,13 +2063,16 @@ layouts:
           align: right
           config:
             cells:
-               - backgroundColor: 'rgba(255,255,255,0.85)'
+               - padding: 2
+                 backgroundColor: 'rgba(255,255,255,0.85)'
                  borderWidth: 1
                  borderWidthTop: 2
           items:
             - !image
-              maxWidth: 150
-              maxHeight: 53
+              maxWidth: 160
+              maxHeight: 49
+              vertAlign: middle
+              align: center
               url: 'http://localhost:8080/geoserver/www/printing/logo.svg'
               
         #Legenda 
