@@ -297,6 +297,24 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+                          
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 715
+          absoluteY: 577.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
        
   #===========================================================================
   # A4 Portrait   595 x 842
@@ -497,6 +515,24 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+                     
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 467
+          absoluteY: 824.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
        
   #===========================================================================
   # A3 Landscape    1190 x 842
@@ -694,6 +730,24 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+               
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 1062
+          absoluteY: 824.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
 
   #===========================================================================
   # A3 Portrait   842 x 1190
@@ -893,7 +947,25 @@ layouts:
                textMaxWidth: 190
                iconPadding: 0
                defaultScale: 0.7937
-               inline: false              
+               inline: false    
+
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 714
+          absoluteY: 1172.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
 
   #===========================================================================
   # A2 Landscape    1684x1190
@@ -1095,6 +1167,24 @@ layouts:
                defaultScale: 0.7937
                inline: false
 
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 1556
+          absoluteY: 1172.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
+
   #===========================================================================
   # A2 Portrait   1190x1684
   #===========================================================================
@@ -1294,6 +1384,24 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+               
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 1062
+          absoluteY: 1666.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
 
   #===========================================================================
   # A1 Landscape    1685x2384
@@ -1496,6 +1604,24 @@ layouts:
                defaultScale: 0.7937
                inline: false
 
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 2256
+          absoluteY: 1666.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
+
   #===========================================================================
   # A1 Portrait   1685 x 2384
   #===========================================================================
@@ -1697,6 +1823,24 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+        
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 1557
+          absoluteY: 2366.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
 
   #===========================================================================
   # A0 Landscape    2384x3371
@@ -1898,6 +2042,25 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+               
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 3243
+          absoluteY: 2366.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'               
+               
 
   #===========================================================================
   # A0 Landscape    2384x3371
@@ -2099,3 +2262,21 @@ layouts:
                iconPadding: 0
                defaultScale: 0.7937
                inline: false
+               
+        #LegendaImage Old 
+        - !columns
+          condition: legendaImage
+          absoluteX: 2256
+          absoluteY: 3353.5
+          width: 110
+          config:
+            borderWidth: 0
+            cells:
+              - padding: 0
+          items:
+            - !image
+              maxWidth: 110
+              maxHeight: 430
+              vertAlign: top
+              align: center
+              url: '${legendaImage}'
