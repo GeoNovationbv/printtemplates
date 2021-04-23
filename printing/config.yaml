@@ -119,9 +119,9 @@ layouts:
        #verplaatsing absoluteY -15.5
        #width -31.5 en height -32
         - !map
-          absoluteX: 15.5
+          absoluteX: 16
           absoluteY: 579.5
-          width: 810.5
+          width: 810
           height: 563
         
         #schaalbalk
